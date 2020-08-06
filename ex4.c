@@ -4,6 +4,11 @@
 int main(){
   int i,a;
   int heads=0,tails=0;
+  char str[8];
+  
+  printf("Who are you? ");
+  scanf("%s", str);
+  printf("Hello, %s!\n", str);
   
   
   printf("Tossing a coin...\n");
