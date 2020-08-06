@@ -28,9 +28,9 @@ int main(){
              printf("Heads: %d, Tails: %d\n", heads, tails);
              
              if(heads>tails){
-               printf("You won");
+               printf("%s won\n", str);
                }
-             else printf("You lose");
+             else printf("%s lost", str);
              
              return 0;
              }
